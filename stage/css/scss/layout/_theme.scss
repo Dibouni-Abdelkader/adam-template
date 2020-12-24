@@ -1,0 +1,30 @@
+/* Themes Variables */
+:root{
+
+  --first-bg-color: #fafafa ;
+  --second-bg-color: #fff;
+  --theme-color: rgb(247, 99, 106);
+  --theme-alt-color: rgba(247, 99, 106, 0.5);
+  --head-color: #000;
+  --white-color: #fff;
+  --text-color: rgb(133, 131, 131);
+  --black-color: #0F1017;
+
+  
+}
+
+// var(--second-bg-color);
+// var(--first-bg-color);
+// var(--theme-color);
+// var(--head-color);
+// var(--text-color);
+
+:root.dark{
+
+  --first-bg-color: #222 ;
+  --second-bg-color: #2a2a2b ;
+  --head-color: rgb(253, 253, 253);
+  --white-color: #fff;
+  --text-color: rgb(216, 214, 214);
+
+}

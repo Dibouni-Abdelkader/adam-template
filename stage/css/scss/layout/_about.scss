@@ -1,0 +1,108 @@
+/* Start About Section */
+.about{
+	padding: $sec-padding;
+	background-color: var(--second-bg-color);
+
+	.about-mission{
+		background-color: var(--first-bg-color);
+		padding: 10px;
+		h5{
+
+			text-transform: capitalize;
+			color: var(--head-color);;
+		}
+		p{
+			line-height: 1.6;
+			font-size:.9rem;
+			color: var(--text-color);
+		}
+
+
+	}
+
+	.about-skills{
+		padding-bottom: 10px;
+
+		.progress-skill{
+			position:relative;
+			margin-bottom: 5px;
+
+			.progress-label{
+					text-transform: capitalize;
+					color:var(--text-color);
+					padding: 10px 0;
+					font-size: .8rem;
+				}
+				
+			.progress-percent{
+
+				position: absolute;
+				bottom: 2px;
+				right: 4px;
+				color: var(--theme-color);
+				font-size: .8rem;
+				
+			}
+
+
+			.progress{
+				height: 2px;
+				background-color: var(--first-bg-color);
+				.progress-bar{
+					background-color: var(--theme-color);
+
+				}
+		}
+
+
+		}
+	}
+
+	.about-video{
+
+		//background: url('../images/hero/hero.jpg');
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		flex-direction: column;
+		height: 100%;
+		border-radius: 50%;
+
+		.video-link{
+		
+			background-color: var(--theme-color);
+			width: 50px;
+			height: 50px;
+			text-align: center;
+			line-height: 50px;
+			border-radius: 50%;
+			@include Transition(all,ease,.5s);
+			&:hover{
+				transform: scale(1.2);
+			}
+			.video-icon{
+
+				color:  var(--white-color);
+
+
+			}
+		}
+		span{
+
+			text-transform: capitalize;
+			padding-top: 10px;
+			font-size:.8rem;
+			color: var(--text-color);
+	
+		}
+
+
+
+	}
+
+	
+}
+
+
+/* End About Section */

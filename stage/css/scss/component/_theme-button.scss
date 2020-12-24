@@ -1,0 +1,36 @@
+/* Theme Button*/
+.theme-button {
+
+	display: inline-block;
+	padding: 6px 40px;
+	font-size: .9rem;
+	text-decoration: none !important;
+	border: 1px solid var(--theme-color);
+	background-color: var(--theme-color);
+	color: var(--white-color);
+	text-transform: capitalize;
+	border-radius: 0px;
+	text-decoration: none;
+	text-align: center;
+	@include Transition(all, .4s, ease-in-out);
+
+	&:hover{
+
+		background-color: transparent;
+		color: var(--theme-color);
+	}
+}
+
+.theme-button-o{
+	background: none !important;
+	border: 1px solid var(--theme-color) !important;
+	color: var(--theme-color) !important;
+
+	&:hover{
+
+		background-color: var(--theme-color) !important;
+		border: 1px solid var(--theme-color) !important;
+		color: var(--white-color) !important;
+
+	}
+}

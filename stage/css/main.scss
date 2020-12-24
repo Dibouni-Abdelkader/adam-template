@@ -1,0 +1,35 @@
+/*
+Template Name: Adam Personal Portfolio Template
+Created By: Kadeer
+Description: Adam is Fully Responsive Personal Portfolio Template with awesome features.
+Version: v1.0
+*/
+
+// Helpers
+@import 'scss/helpers/variables.scss';
+@import 'scss/helpers/mixin.scss';
+
+//themes
+@import 'scss/layout/theme.scss';
+
+// Component
+
+@import 'scss/component/switch-theme.scss';
+@import 'scss/component/preloader.scss';
+@import 'scss/component/theme-button.scss';
+@import 'scss/component/packtop.scss';
+@import 'scss/component/section-title.scss';
+
+// Layout
+@import 'scss/layout/global.scss';
+@import 'scss/layout/navigation.scss';
+@import 'scss/layout/hero.scss';
+@import 'scss/layout/about.scss';
+@import 'scss/layout/services.scss';
+@import 'scss/layout/portfolio.scss';
+@import 'scss/layout/testimonials.scss';
+@import 'scss/layout/price.scss';
+@import 'scss/layout/blog.scss';
+@import 'scss/layout/contact.scss';
+@import 'scss/layout/footer.scss';
+

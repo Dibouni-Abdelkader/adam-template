@@ -1,0 +1,52 @@
+// overlay mixin
+@mixin overlay {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+
+}
+
+// transition mixin
+
+@mixin Transition($p, $d, $t) {
+    transition: $p $d $t;
+}
+
+//shape
+@mixin shape($width,$height,$color,$border-style,$border-width){
+
+	&:before{
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		border-width: $border-width;
+		background: transparent;
+		z-index: 1;
+		border-style: $border-style;
+		border-color: $color transparent transparent $color;
+		width: $width;
+		height: $height;
+		transition: all .5s ease;
+	}
+	&:after{
+		content: "";
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		border-width: $border-width;
+		background: transparent;
+		z-index: 1;
+		border-style: $border-style;
+		border-color:transparent $color $color transparent;
+		width: $width;
+		height: $height;
+		transition: all .5s ease;
+	}
+}

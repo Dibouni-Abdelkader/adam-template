@@ -1,0 +1,60 @@
+// Start Contact Section 
+section#contact.smoth-section.contact
+
+	.container
+		+section-title('get in','touch')
+		.row
+			.col-md-5
+				.row
+					.col-md-12
+						.contact-box.clearfix
+							.box-icon
+								i.fa.fa-map-marker
+							.box-info
+								h5 locate us
+								p king street,melporg,austria
+					.col-md-12
+						.contact-box.clearfix
+							.box-icon
+								i.fa.fa-envelope-o
+							.box-info
+								h5 get in online
+								p contact@example.com
+					.col-md-12
+						.contact-box.clearfix
+							.box-icon
+								i.fa.fa-phone
+							.box-info
+								h5 give us a call
+								p office: +01-4582-2581
+		
+			.col-md-7
+				form(action='' method='')
+					.row
+						.col-md-6
+							.form-group
+								input(type='text',
+											required='required',
+											placeholder='your name',
+											name='name',
+											id='name').form-control
+						.col-md-6
+							.form-group
+								input(type='email',
+										required='required',
+										placeholder='your email',
+										name='email',
+										id='email').form-control
+
+						.col-md-12
+							.form-group
+								textarea(required='required',
+										placeholder='your message...').form-control
+
+						.col-md-12
+							button(type='submit') send message
+
+
+
+
+// End Contact Section 
